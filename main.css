@@ -1,0 +1,23 @@
+:root{
+  --color-orange-light: #FF5C00;
+  --color-orange-dark: #EB5500;
+  --color-blue-light: #4A72FF;
+  --color-blue-dark: #2F5DFF;
+  --color-white: #FFFFFF;
+  --color-gray-light: #F3F3F3;
+  --color-gray-dark: #323232;
+  --color-black: #000000;
+
+  font-size: 62.5%;
+  font-family: 'Fira Code';
+}
+
+html, body {
+  height: 100vh; 
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
