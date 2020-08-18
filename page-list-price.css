@@ -1,0 +1,139 @@
+body {
+  background-color: #dce6f2;
+}
+
+header {
+  width: 100%;
+  height: 10rem;
+  background-color: var(--color-white);
+
+  display: flex;
+  justify-content: center;
+}
+
+/* Partials header */
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 90%;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-info .user-name {
+  margin-right: 1.6rem;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #323232;
+}
+
+/* Partials header end */
+
+/* Main */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.6rem;
+}
+
+main .container {
+  width: 90%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .container .add-price {
+  width: 22.2rem;
+  height: 5.2rem;
+
+  color: var(--color-white);
+  background: var(--color-blue-dark);
+  font-size: 1.6rem;
+
+  border: none;
+  outline: none;
+}
+
+main .container .add-price:hover {
+  background: var(--color-blue-light);
+  transition: 300ms;
+  cursor: pointer;
+}
+
+main .container .container-search {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+main .container .container-search .search {
+  width: 50rem;
+  height: 5.2rem;
+
+  border: none;
+  outline: none;
+  padding: 1.6rem;
+  font-family: 'Poppins';
+  font-weight: 500;
+}
+
+main .container .container-search a {
+  position: absolute;
+  left: 45rem;
+  cursor: pointer;
+}
+main table {
+  width: 100%;
+  margin-top: 1.6rem;
+  border: none;
+  border-spacing: 0;
+
+  font-size: 16px;
+  line-height: 24px;
+}
+
+main table thead {
+  background-color: var(--color-white);
+  color: var(--color-blue-light);
+  height: 6.5rem;
+}
+
+main table thead th {
+  height: 5.2rem;
+  border-bottom: 3px solid #dce6f2;
+}
+
+main table tr td {
+  height: 5.2rem;
+  background-color: var(--color-white);
+  border-bottom: 2px solid #dce6f2;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+
+  color: #67647e;
+}
+
+thead th,
+tbody td {
+  text-align: center;  
+}

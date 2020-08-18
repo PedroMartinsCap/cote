@@ -38,6 +38,7 @@ body {
 
 .container-buttons button:hover{
   background: var(--color-orange-dark);
+  cursor: pointer;
 }
 
 /*Inferior a 768px*/
