@@ -113,11 +113,13 @@ main table thead {
   background-color: var(--color-white);
   color: var(--color-blue-light);
   height: 6.5rem;
+  
 }
 
 main table thead th {
   height: 5.2rem;
   border-bottom: 3px solid #dce6f2;
+
 }
 
 main table tr td {
@@ -135,5 +137,5 @@ main table tr td {
 
 thead th,
 tbody td {
-  text-align: center;  
+  text-align: center;
 }
