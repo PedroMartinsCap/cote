@@ -2,46 +2,6 @@ body {
   background-color: #dce6f2;
 }
 
-header {
-  width: 100%;
-  height: 10rem;
-  background-color: var(--color-white);
-
-  display: flex;
-  justify-content: center;
-}
-
-/* Partials header */
-
-header .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  width: 90%;
-}
-
-.user-info {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.user-info .user-name {
-  margin-right: 1.6rem;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-
-  color: #323232;
-}
-
-/* Partials header end */
 
 /* Main */
 main {
