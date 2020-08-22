@@ -23,6 +23,10 @@ Depois será adicionado uma funcionalidade que busca na internet o valor médio 
 Qual a diferença com outros sites de cotação? O foco aqui serão cotações no comércio local, de produtos mais corriqueiros.
 </p>
 
+<h1 align="center" >
+   <img width="1024px" alt="proffy image" src="public/images/assets/cote!.gif"/>
+</h1>
+
 ## :computer: Tecnologias
 
 - HTML
